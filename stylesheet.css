@@ -1,12 +1,11 @@
 #h1 {
   display: inline-block;
-  margin-left: 380px;
 }
 
 #audio {
-  display: inline-block;
-  margin-left: 50px;
-  border: 2px solid #f0f3f4;
-  background-color: #f0f3f4;
-  opacity: 0;
+  /* Usaría position: relative pero esto es especial*/
+  position: fixed;
+  z-index: 5;
+  top: 680px;
+  left: 1230px;
 }
