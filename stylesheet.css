@@ -6,6 +6,6 @@
   /* Usaría position: relative pero esto es especial*/
   position: fixed;
   z-index: 5;
-  top: 680px;
-  left: 1230px;
+  top: 10px;
+  left: 10px;
 }
