@@ -1,6 +1,32 @@
-#h1 {
-  display: inline-block;
+body {
+  background: #D3FFCA;
 }
+
+.title {
+  display: inline-block;
+  font-size: 40px;
+  font-family: "Ballet", "Cursive";
+}
+
+.p {
+  font-size: 30px;
+  font-family: "Balsamiq Sans", "Cursive";
+}
+
+.repositorios {
+  position: relative;
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Pattaya', sans-serif;
+  text-decoration: none;
+  color: #D3FFCA;
+  transition: all 1.2s;
+}
+
+.repositorios:hover {
+  color: #000;
+}
+
 
 #audio {
   /* Usaría position: relative pero esto es especial*/
