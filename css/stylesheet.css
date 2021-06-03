@@ -3,13 +3,14 @@ body {
 }
 
 .title {
-  display: inline-block;
-  font-size: 40px;
+  font-size: 80px;
   font-family: "Ballet", "Cursive";
+  text-align: center;
 }
 
 .p {
   font-size: 30px;
+  text-align: justify;
   font-family: "Balsamiq Sans", "Cursive";
 }
 
@@ -19,14 +20,36 @@ body {
   text-align: center;
   font-family: 'Pattaya', sans-serif;
   text-decoration: none;
-  color: #D3FFCA;
+  opacity: 0;
   transition: all 1.2s;
 }
 
 .repositorios:hover {
-  color: #000;
+  color: black;
+  opacity: 1;
 }
 
+.redes {
+  font-family: 'Bebas Neue', "cursive";
+  text-align: center;
+}
+
+.redes_text_title {
+  font-size: 90px;
+}
+
+.redes_text {
+  font-size: 35px;
+}
+
+.return {
+  text-align: center;
+}
+
+[title="mi_logo"] {
+  margin: auto;
+  display: block;
+}
 
 #audio {
   /* Usaría position: relative pero esto es especial*/
