@@ -76,8 +76,8 @@ h3 {
 
   audio {
     width: 20%;
-    height: 30px;
-    margin-left: 50%;
+    display: block;
+    margin: auto;
   }
 
   .p {
