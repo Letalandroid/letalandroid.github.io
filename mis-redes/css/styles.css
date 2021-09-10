@@ -7,7 +7,7 @@
 
 nav {
 
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 
 }
 
@@ -50,9 +50,21 @@ li a:active {
 
 }
 
+footer {
+
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #fffd;
+
+}
+
 .redes_title {
   font-size: 90px;
-  margin-bottom: 35px;
+  text-decoration: underline;
+  margin-bottom: 50px;
 }
 
 .redes_subtitle {
