@@ -52,30 +52,113 @@ li a:active {
 
 main {
 
-    margin: auto 500px;
-    margin-top: 50px;
+  margin-top: 50px;
 
 }
 
 .buton {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Indie Flower', cursive;
-    font-weight: 700;
-    font-size: 40px;
-    color: #000;
-    background-color: #12ecff;
-    padding: 20px 30px;
-    border-radius: 10px;
+    
+  display: block;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 700;
+  font-size: 40px;
+  color: #000;
+  background-color: #12ecff;
+  padding: 20px 30px;
+  border-radius: 10px;
 
 }
 
 .buton:hover {
 
-    text-decoration: underline;
+  text-decoration: underline;
+
+}
+
+@media (max-width: 1480px) {
+
+  ul {
+
+    padding: 20px 50px;
+
+  }
+
+  li a {
+
+    padding: 20px 120px;
+
+  }
+
+}
+
+@media (max-width: 1100px) {
+
+  ul {
+
+    padding: 20px 20px;
+
+  }
+
+  li a {
+
+    padding: 20px 80px;
+
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  ul {
+
+    padding: 20px 10px;
+
+  }
+
+  li a {
+
+    padding: 20px 40px;
+
+  }
+
+}
+
+@media (max-width: 540px) {
+
+  ul {
+
+    padding: 0px 0px;
+
+  }
+
+  li a {
+
+    display: block;
+    padding: 10px;
+
+  }
+
+}
+
+@media (max-width: 380px) {
+
+  .buton {
+
+    font-size: 30px;
+
+  }
+
+}
+
+@media (max-width: 300px) {
+
+  .buton {
+
+    font-size: 20px;
+
+  }
 
 }
