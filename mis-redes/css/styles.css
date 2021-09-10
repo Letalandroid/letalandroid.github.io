@@ -1,0 +1,87 @@
+* {
+
+  margin: auto;
+  padding: auto;
+
+}
+
+nav {
+
+  margin-bottom: 50px;
+
+}
+
+ul {
+
+  background-color: #000;
+  padding: 20px 150px;
+  text-align: center;
+
+}
+
+li {
+  display: inline;
+  cursor: pointer;
+}
+
+
+li a {
+  
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  padding: 20px 150px;
+  transition: background-color .2s;
+
+}
+
+li a:hover {
+
+  background-color: #c4c4c4;
+  color: #000;
+  text-decoration: underline;
+
+}
+
+li a:active {
+
+  color: #fff;
+  background-color: #000;
+
+}
+
+footer {
+
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #fffd;
+
+}
+
+.redes_title {
+  font-size: 90px;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+.redes_subtitle {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.icons_redes {
+
+  width: 22px;
+
+}
+
+.redes {
+  font-family: 'Bebas Neue', "cursive";
+  text-align: center;
+}
+
+
+
