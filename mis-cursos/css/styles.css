@@ -57,23 +57,31 @@ main {
 
 }
 
-button, .buton {
+button {
     
   display: block;
   margin: auto;
+  margin-bottom: 15px;
   text-align: center;
-  text-decoration: none;
   font-family: 'Indie Flower', cursive;
   font-weight: 700;
   font-size: 40px;
-  color: #000;
   background-color: #12ecff;
   padding: 20px 30px;
   border-radius: 10px;
 
 }
 
-.buton:hover {
+button a {
+  text-decoration: none;
+  color: #000;
+}
+
+.buton2 {
+  background-color: yellow;
+}
+
+button a:hover {
 
   text-decoration: underline;
 
