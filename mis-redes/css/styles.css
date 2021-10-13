@@ -1,21 +1,24 @@
 * {
 
-  margin: auto;
-  padding: auto;
+  margin: 0;
+  padding: 0;
+  font-family: "Balsamiq Sans", "Cursive";
 
 }
 
 nav {
 
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 
 }
 
 ul {
 
+  display: flex;
+  justify-content: space-evenly;
   background-color: #000;
-  padding: 20px 150px;
   text-align: center;
+  padding: 2vw;
 
 }
 
@@ -29,11 +32,9 @@ li a {
   
   text-decoration: none;
   color: #fff;
-  font-size: 25px;
+  font-size: 2vw;
   font-family: 'Coiny', cursive;
-  padding: 20px 150px;
-  transition: background-color .2s;
-
+  padding: 2vw;
 }
 
 li a:hover {
@@ -51,199 +52,220 @@ li a:active {
 
 }
 
-footer {
-
-    display: block;
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid #000;
-    background-color: #fffd;
-
-}
-
-.redes_title {
-  font-size: 90px;
+h1 {
+  margin: 3%;
+  font-size: 5vw;
+  text-align: center;
   text-decoration: underline;
-  margin-bottom: 50px;
 }
 
-.redes_subtitle {
-  font-size: 35px;
-  margin-bottom: 25px;
+.redes-link__container {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto 20px;
+
+}
+
+.redes-link__container div {
+  margin: 10px;
+}
+
+.redes-link__github {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 15px 8px;
+  font-size: 40px;
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 15px;
+
+}
+
+.redes-link__github a, .redes-link__github i {
+  
+  margin-left: 5px;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.redes-link__github:hover, .redes-link__github a:hover, .redes-link__github i:hover {
+
+  background-color: #fff;
+  color: #000;
+
+}
+
+.redes-link__ig {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 15px 8px;
+  font-size: 40px;
+  background: linear-gradient(210deg, #ff6bfb 0, #ff66f5 16.67%, #ea5eea 33.33%, #be55d8 50%, #934bc4 66.67%, #6c42b1 83.33%, #473ba0 100%);
+  border: 1px solid #ff6bfb;
+  border-radius: 15px;
+
+}
+
+.redes-link__ig a, .redes-link__ig i {
+  
+  margin-left: 5px;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.redes-link__ig:hover, .redes-link__ig a:hover, .redes-link__ig i:hover {
+
+  background: #fff;
+  color: #ff6bfb;
+
+}
+
+.redes-link__twitter {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 15px 8px;
+  font-size: 40px;
+  background-color: #00a6e9;
+  border: 1px solid #00a6e9;
+  border-radius: 15px;
+
+}
+
+.redes-link__twitter a, .redes-link__twitter i {
+  
+  margin-left: 5px;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.redes-link__twitter:hover, .redes-link__twitter a:hover, .redes-link__twitter i:hover {
+
+  background-color: #fff;
+  color: #00a6e9;
+
+}
+
+.redes-link__twitch {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 15px 8px;
+  font-size: 40px;
+  background-color: #8c44f7;
+  border: 1px solid #8c44f7;
+  border-radius: 15px;
+
+}
+
+.redes-link__twitch a, .redes-link__twitch i {
+  
+  margin-left: 5px;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.redes-link__twitch:hover, .redes-link__twitch a:hover, .redes-link__twitch i:hover {
+
+  background-color: #fff;
+  color: #8c44f7;
+
 }
 
 .icons_redes {
 
-  width: 22px;
+  width: 2%;
 
 }
 
-.redes {
-  font-family: 'Bebas Neue', "cursive";
-  text-align: center;
+.redes-link__yt {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 15px 8px;
+  font-size: 40px;
+  background-color: #f60002;
+  border: 1px solid #f60002;
+  border-radius: 15px;
+
 }
 
-@media (max-width: 1480px) {
+.redes-link__yt a, .redes-link__yt i {
+  
+  margin-left: 5px;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.redes-link__yt:hover, .redes-link__yt a:hover, .redes-link__yt i:hover {
+
+  background-color: #fff;
+  color: #f60002;
+
+}
+
+.icons_redes {
+
+  width: 2%;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+  }
+
+footer {
+
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #000;
+    background-color: #fffd;
+
+}
+
+@media (max-width: 725px) {
+
+  h1 {
+    font-size: 3.5em;
+  }
 
   ul {
 
-    padding: 20px 20px;
+    flex-direction: column;
+
+  }
+
+  li {
+
+    
+    margin: 10px auto;
 
   }
 
   li a {
-
-    padding: 20px 150px;
-
+    font-size: 5vw;;
   }
 
-  main {
-
-    margin: 20px 100px 80px 50px;
-
-  }
-  
-}
-
-@media (max-width: 1300px) {
-
-  ul {
-
-    padding: 20px 20px;
-
-  }
-
-  li a {
-
-    padding: 20px 120px;
-
-  }
-  
-}
-
-@media (max-width: 1060px) {
-
-  ul {
-
-    padding: 20px 20px;
-
-  }
-
-  li a {
-
-    padding: 20px 90px;
-
-  }
-
-  main {
-
-    margin: 5px 60px 80px 50px
-
-  }
-  
-}
-
-@media (max-width: 880px) {
-
-  ul {
-
-    padding: 20px 20px;
-
-  }
-
-  li a {
-
-    padding: 20px 60px;
-
-  }
-
-}
-
-@media (max-width:680px) {
-
-  li a {
-
-    padding: 10px 30px;
-
-  }
-
-  main {
-
-    margin: 10px 50px 80px 50px;
-    padding: 40px;
-
-  }
-  
-}
-
-@media (max-width: 500px) {
-
-  li a {
-
-    display: block;
-    font-size: 20px;
-
-  }
-
-  nav {
-
-    margin-bottom: 10px;
-
-  }
-
-  main {
-
-    margin: 0;
-
-  }
-
-  .redes_subtitle {
-
-    font-size: 30px;
-
-  }
-
-}
-
-@media (max-width: 420px) {
-
-  main {
-
-    padding: 20px;
-
-  }
-
-}
-
-@media (max-width: 365px) {
-
-  .redes_title {
-
-    font-size: 70px;
-
-  }
-
-}
-
-@media (max-width: 320px) {
-
-  .redes_title {
-
-    font-size: 50px;
-
-  }
-
-  .redes_subtitle {
-
-    font-size: 20px;
-
-  }
-
-  .icons_redes {
-
-    width: 15px;
-
-  }
-  
 }

@@ -1,8 +1,7 @@
 * {
 
-    padding: auto;
-    margin: auto;
-
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -13,9 +12,11 @@ nav {
 
 ul {
 
+  display: flex;
+  justify-content: space-evenly;
   background-color: #000;
-  padding: 20px 150px;
   text-align: center;
+  padding: 2vw;
 
 }
 
@@ -29,11 +30,9 @@ li a {
   
   text-decoration: none;
   color: #fff;
-  font-size: 25px;
+  font-size: 2vw;
   font-family: 'Coiny', cursive;
-  padding: 20px 150px;
-  transition: background-color .2s;
-
+  padding: 2vw;
 }
 
 li a:hover {
@@ -53,20 +52,20 @@ li a:active {
 
 main {
 
-  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 
 }
 
 button {
-    
-  display: block;
-  margin: auto;
+  
   margin-bottom: 15px;
   text-align: center;
   font-family: 'Indie Flower', cursive;
   font-weight: 700;
-  font-size: 40px;
-  background-color: #12ecff;
+  font-size: 30px;
+  background: rgb(14,36,96);
+  background: linear-gradient(45deg, rgba(14,36,96,1) 0%, rgba(23,136,176,1) 25%, rgba(0,212,255,1) 100%);
   padding: 20px 30px;
   border-radius: 10px;
 
@@ -74,107 +73,43 @@ button {
 
 button a {
   text-decoration: none;
-  color: #000;
-}
-
-.buton2 {
-  background-color: yellow;
+  color: #fff;
 }
 
 button a:hover {
-
+  
   text-decoration: underline;
-
+  
 }
 
-@media (max-width: 1480px) {
-
-  ul {
-
-    padding: 20px 50px;
-
-  }
-
-  li a {
-
-    padding: 20px 120px;
-
-  }
-
-}
-
-@media (max-width: 1100px) {
-
-  ul {
-
-    padding: 20px 20px;
-
-  }
-
-  li a {
-
-    padding: 20px 80px;
-
-  }
-
-}
-
-@media (max-width: 800px) {
-
-  ul {
-
-    padding: 20px 10px;
-
-  }
-
-  li a {
-
-    padding: 20px 40px;
-
-  }
-
-}
-
-@media (max-width: 540px) {
-
-  ul {
-
-    padding: 0px 0px;
-
-  }
-
-  li a {
+footer {
 
     display: block;
+    margin: auto;
+    text-align: center;
     padding: 10px;
-
-  }
-
-  button, .buton {
-
-    padding: 10px 20px;
-    font-size: 40px;
-
-  }
+    outline: 1px solid #000;
+    background-color: #fffd;
 
 }
 
-@media (max-width: 460px) {
+@media (max-width: 725px) {
 
-  .buton {
+  ul {
 
-    font-size: 30px;
+    flex-direction: column;
 
   }
 
-}
+  li {
 
-@media (max-width: 370px) {
+    
+    margin: 10px auto;
 
-  .buton {
+  }
 
-    font-size: 20px;
-
+  li a {
+    font-size: 5vw;;
   }
 
 }
