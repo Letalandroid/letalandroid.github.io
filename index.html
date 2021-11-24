@@ -1,67 +1,65 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-  <title>Letalandroid | Home</title>
+
+<head>
+  <title>Letalandroid</title>
   <meta charset="utf-8" />
   <meta property="og:title" content="Letalandroid | Home" />
   <meta property="og:description" content="Mi blog personal" />
   <meta property="og:type" content="Página web" />
   <meta property="og:url" content="https://www.letalandroid.ml" />
   <meta property="og:image" content="https://www.letalandroid.ml/src/background.jpg" />
-  <link rel="stylesheet" href="/css/styles.css" />
-  <link rel="shortcut icon" href="/src/img/logo.ico" type="image/x-icon">
-  <!--Fuente para el título!-->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Ballet&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="shortcut icon" href="src/img/logo.ico" type="image/x-icon">
   <!--Fuente para el párrafo!-->
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet" />
-  <!--Fuente para las redes_sociales!-->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
-  <!--Fuente para repositorios-->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
-  <!-- Fuente para el nav -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body id="inicio">
   <header>
-    <div>
-        <nav>
-          <ul>
-            <li>
-              <a href="/">Inicio</a>
-            </li>
-            <li>
-              <a href="/mis-redes/">Mis redes</a>
-            </li>
-            <li>
-              <a href="/mis-cursos/">Mis Cursos</a>
-            </li>
-          </ul>
-        </nav>
-        <h1>Welcome To My</h1>
+    <div class="header-h">
+      <h1>Me llamo Carlos y soy</h1>
+      <h2>Desarrollador Front-End</h2>
+      <a class="btn" href="#redes">
+        <input class="contact" type="button" value="Contáctame">
+      </a>
+    </div>
+    <div class="yo-container">
+      <img class="yo" src="src/img/yo 1-1.jpeg" alt="yo">
     </div>
   </header>
   <main>
-    <div>
+    <section class="description">
       <p class="p">
-        Mi nombre en si no es "Letalandroid", obviamente, tengo 17 y estoy empezando con esto de la "programación" más especificamente hablando, Desarrollo Web, como verán, esta es una página creada con puro HTML(HyperText Markup Language), o Lenguaje de Marcado e HiperTexto en español, o la base de la mayoría de páginas webs actualmente por no decir todas. Actualmente estudiando en un curso de CSS(Cascading Style Sheets), o Hojas de Estilo en Cascada, o el poder diseñar una página con colores, sombras, etc. Para que en un futuro, no muy lejano o eso espero, comenzar con JavaScript. Y, pues, por todo lo que estoy diciendo, suponiendo mi edad y mi procedencia: Perú 🇵🇪 . En fin, sin mucho más que decir, claramente algunas cosas como el fondo y la fuente NO se deberían aplicar desde HTML ya que para eso existe CSS, pero tampoco quería dejar en 0 la página, o no agregarle uno que otro diseño.
+        Me llamo Carlos, tengo 17, estudiante de la Universidad César Vallejo, y estoy empezando con el Desarrollo Web.
+        Actualmente estudiando en un curso de JavaScript y vivo en Perú 🇵🇪
       </p>
-    </div>
-    <div>
-        <a class="logo" href="https://www.youtube.com/channel/UCxO21Lt_MNFx2Plq13UHO-A?sub_confirmation=1" target="_BLANK">
-          <img class="logo" src="/src/img/logo.jpg" alt="mi_logo"/>
-        </a>
-    </div>
+    </section>
+    <section class="tecnologies">
+      <h2>Teconologías que domino:</h2>
+      <div class="tecno-logos">
+        <img src="src/img/logos/html.png" alt="html" title="HTML">
+        <img src="src/img/logos/css.png" alt="css" title="CSS">
+        <img src="src/img/logos/git.png" alt="git" title="GIT">
+      </div>
+    </section>
   </main>
-  <footer>
-        @ Letalandroid - UCV
-    </footer>
+  <footer id="redes">
+    <h3>Letalandroid</h3>
+    <div class="redes">
+      <a href="https://github.com/Letalandroid" target="_blank">
+        <img class="redes-logo" src="src/img/logos/github.png" alt="github">
+      </a>
+      <a href="https://www.linkedin.com/in/letalandroid/" target="_blank">
+        <img class="redes-logo linkedin" src="src/img/logos/linkedin.png" alt="linkedin">
+      </a>
+      <a href="https://twitter.com/letalandroid" target="_blank">
+        <img class="redes-logo" src="src/img/logos/twitter.png" alt="twitter">
+      </a>
+    </div>
+  </footer>
 </body>
+
 </html>
