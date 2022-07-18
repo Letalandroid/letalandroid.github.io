@@ -29,7 +29,7 @@
       content="https://www.letalandroid.ml/src/img/yo 1-1.jpeg"
     />
 
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
     <link rel="shortcut icon" href="src/img/logo.ico" type="image/x-icon" />
 
     <!--Fuente para el párrafo!-->
@@ -39,16 +39,24 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/8b1c082df7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body id="inicio">
     <header>
       <nav>
-        <ul>
-          <li><a href="#">Historia</a></li>
-          <li><a href="#">Tecnologías</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">Contáctame</a></li>
+        <li class="nav-menu">
+          <a id="menu" href="#"><em class="fas fa-bars"></em></a>
+          <input type="checkbox" id="menu-check">
+        </li>
+        <ul id="nav">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#tecnologias">Tecnologías</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#redes">Contáctame</a></li>
         </ul>
       </nav>
     </header>
@@ -72,7 +80,7 @@
           curso de JavaScript y vivo en Perú 🇵🇪
         </p>
       </section>
-      <section class="tecnologies">
+      <section id="tecnologias" class="tecnologies">
         <h2>Teconologías que domino:</h2>
         <div class="tecno-logos">
           <img src="src/img/logos/html.png" alt="html" title="HTML" />
@@ -103,5 +111,6 @@
         </a>
       </div>
     </footer>
+    <script src="src/js/main.js"></script>
   </body>
 </html>
