@@ -317,7 +317,11 @@ nav {
   }
 
   .tecnologies {
-    font-size: 0.5em;
+    font-size: .5em;
+  }
+
+  .proyects-container h2 {
+    font-size: 1.7em;
   }
 
   .yo {
