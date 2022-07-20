@@ -2,8 +2,8 @@ let menu = document.getElementById('menu-check');
 
 menu.addEventListener("click", () => {
   if (menu.checked) {
-    document.getElementById("nav").style.visibility = "visible";
+    document.getElementById("nav").style.top = 0;
   } else {
-    document.getElementById("nav").style.visibility = "hidden";
+    document.getElementById("nav").style.top = "-100vh";
   }
 });
